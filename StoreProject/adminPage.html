@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+
+        <link rel="stylesheet" href="css/styleRegisterPage.css">
+    </head>
+    <body>
+        <div style="overflow:hidden;">
+            <form action="admin.php" method="post">
+                <b style="text-align: center; font-size: 25px;">Administrator Page</b><br><br>
+                <label for="uid">ADMINISTRATOR:</label><br>
+                <input type="text" name="uid" placeholder="Username"/><br><br>
+                <label for="pwd">PASSWORD:</label><br>
+                <input type="password" name="pwd" placeholder="Password"/><br><br>
+                <button id="btn" type="submit" name="submit" >LOGIN</button><br>
+            </form>
+            <button id="btn" onclick="window.location.href = 'loginPage.html'">GO BACK</button><br>
+        </div>
+
+    </body>
+</html>

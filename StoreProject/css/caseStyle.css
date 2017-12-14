@@ -1,0 +1,54 @@
+.case{
+    float: left;
+    width: 250px;
+    height: 550px;
+    margin: 2%;
+    border: none; 
+    border-radius:5%;
+    display: inline-block;
+    position:relative;
+    text-align: center;
+    font-size: 24px;
+    cursor:pointer;
+}
+
+#case:hover{
+    width: 17%;
+    height: 19%;
+    margin: 1%;
+    cursor:pointer;
+}
+
+.btn{
+    background: #19b1ca;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    height: 5%;
+    margin-bottom: 2px; 
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.imgCase{
+    width: 211px;
+    height: 148px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+}
+
+p{
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Roboto,sans-serif;
+}

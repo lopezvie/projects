@@ -1,0 +1,31 @@
+<?php
+/*
+ * Author: Omar Lopez Vie 
+ *  */
+session_start();
+?>
+<html>
+    <head>
+        <title>Create User - Administrator - Survey</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="css/styleRegisterPage.css">
+    </head>
+    <body>
+        <div>
+            <form action="createUser.php" method="post">
+                <b style="text-align: center; font-size: 25px;">Create User - Administrator</b><br><br>
+                <label for="uid">USERNAME: </label><br>
+                <input type="text" name="uid" placeholder="Username"/><br><br>
+                <label for="pwd">PASSWORD:</label><br>
+                <input type="password" name="pwd" placeholder="Password"/><br><br>
+                <label for="name">NAME:</label><br>
+                <input type="text" name="name" placeholder="Name"/><br><br>
+                <label for="email">E-MAIL:</label><br>
+                <input type="text" name="email" placeholder="E-Mail"/><br><br>
+                <button id="btn" type="submit" name="submit">CREATE USER</button><br>
+            </form>        
+        </div>
+    </body>
+</html>

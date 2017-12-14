@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="css/styleLoginPage.css">
+    </head>
+    <body>
+        <div class="cont">
+            <form action="login.php" method="post">
+                <b>Login</b><br><br>
+                <label for="username">USERNAME: </label>
+                <input type="text" name="uid" placeholder="Username"/><br><br>
+                <label for="password">PASSWORD: </label>
+                <input type="password" name="pwd" placeholder="Password"/><br><br>
+                <button id="btn" type="submit" name="submit" >Login</button><br>
+            </form>
+            <div id="buttons">
+                <button id="btn" onclick="window.location.href = 'registerPage.html'">Register</button><br>
+                <button id="btn" onclick="window.location.href = 'adminPage.html'">Administrator</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+            

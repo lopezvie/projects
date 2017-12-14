@@ -1,0 +1,92 @@
+*{
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+body{
+    background: url(img/background.jpg);
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:hover{
+    background: #fffacd;
+}
+
+input[type=password]:hover{
+    background: #fffacd;
+}
+
+#btn{
+    background: #19b1ca;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    height: 5%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+#btn:hover{
+    background: red;
+}
+
+.cont{
+    background: #f2f2f2;
+    display: block;
+    position: absolute;
+    margin: 10%;
+    width: 50%;
+    padding: 10px;
+}
+
+form{
+    vertical-align: middle;
+    background: #f2f2f2;
+    padding:10px;
+    text-align: center;
+    color: #19b1ca;
+    font-size: 25px;
+}
+
+#buttons{
+    vertical-align: middle;
+    background: #f2f2f2;
+    padding:10px;
+    text-align: center;
+    color: #19b1ca;
+    font-size: 25px;
+}
+
+b{
+    font-size: 45px;
+    color:#000000;
+    bottom:  5%; 
+}
+
+label{
+    color: #000000;
+    padding:5%;
+}
